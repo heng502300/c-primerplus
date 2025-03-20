@@ -1,0 +1,35 @@
+6.
+double mass(double density, double volume)
+double mass(double density, double volume = 1.0)
+
+void repeat(int times , string st)
+
+int average(int a, int b)
+double average(double a, double b)
+
+char mangle(char arr[])
+char * mangle(char arr[])
+
+7.
+template<typename T>
+T max(T a, T b)
+{
+    return a > b? a:b;
+}
+
+8.
+tempalte<>box max(box b1, box b2)
+{
+    return b1.volume > b2.volume? b1:b2;
+}
+
+9.
+v1 float
+v2 float &
+v3 float &
+v4 int
+v5 double
+
+
+
+
