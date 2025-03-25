@@ -1,0 +1,41 @@
+1.类似与结构体 oop
+2.h .cpp private public
+3.
+4.函数是公共接口，数据隐藏只有类中可用
+
+5.  #ifndif COMPANY_H_
+    #define COMPANY_H_
+    #include<string>
+    class Company
+    {
+        private:
+            string company;
+            string zhanhu;
+            double num;
+        public:
+            company();
+            ~company();
+            void company(const string & co, const string & zh, double n);
+            void show() const;
+            void push(double num) const;
+            void pop(double num);
+    };
+    #endif
+6.声明一个类对象，  执行完代码块
+7.  Company::company()
+    {
+        company = "no name";
+        zhanhu = "no";
+        num = 0.0;
+    }
+    
+    void Company::copmpany(const string & co, const string & zh, double n);
+    {
+        company = co;
+        zhanhu = zh;
+        num = n;
+    }
+    
+8.没有初始化会自动调用
+9.
+10.this指针当前类地址，*this解引用得成员。
