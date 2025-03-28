@@ -1,0 +1,29 @@
+1.Class Stonewt
+{
+    private:
+
+    public:
+        Stonewt operator*(double mult)
+        {
+            
+        】
+
+      friend  Stonewt opeartor*(const double a, const Stonewt & t)
+}
+
+2.友元函数  函数体里this要指定
+
+3.要看类成员是不是private
+
+4.Stonewt operator*(const double a, const Stonewt & t)
+{
+    return a * t.stone;
+}
+
+5.本身没有的
+
+6.
+
+7.
+
+
